@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Study/2020 Fall/CPSC 317/A3/CSftp.c
+sys/types.h
+-
+sys/socket.h
+-
+stdio.h
+-
+dir.h
+/cygdrive/d/Study/2020 Fall/CPSC 317/A3/dir.h
+usage.h
+/cygdrive/d/Study/2020 Fall/CPSC 317/A3/usage.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+pthread.h
+-
+
+/cygdrive/d/Study/2020 Fall/CPSC 317/A3/dir.h
+
+/cygdrive/d/Study/2020 Fall/CPSC 317/A3/usage.h
+
