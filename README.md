@@ -1,5 +1,5 @@
 # FTPServer
-# Initialization #
+## Initialization ##
 Do a "make" followed by "./CSftp PORTNUMBER".
 The program will not work if the first argument is not a valid port number,
 or if there is more than one argument. 
@@ -10,7 +10,7 @@ For each connection, it will create a thread.
 Only when the first connection finishes 
 will the second connection be attended to, and so on.
 
-# Commands Supported #
+## Commands Supported ##
 - USER cs317
 - QUIT
 - TYPE A or TYPE I
@@ -20,7 +20,7 @@ will the second connection be attended to, and so on.
 - PASV
 - NLST
 
-# Detailed instructions #
+## Detailed instructions ##
 Once connected, you can start your session with "USER cs317".
 The only commands available prior to logging in are USER and QUIT.
 
