@@ -1,6 +1,4 @@
 # FTPServer
-This text file documents the commands for the FTP server.
-
 # Initialization
 Do a "make" followed by "./CSftp PORTNUMBER".
 The program will not work if the first argument is not a valid port number,
